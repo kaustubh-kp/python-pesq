@@ -34,6 +34,7 @@ setup(
     ext_modules=cythonize(extensions),
     setup_requires=['numpy', 'cython', 'pytest-runner'],
     tests_require=['pytest'],
+    install_requires=['numpy'],
     classifiers=[
         "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
