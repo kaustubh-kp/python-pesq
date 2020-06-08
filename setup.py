@@ -1,7 +1,7 @@
 # 2019-May
 # github.com/ludlows
 # Python Wrapper for PESQ Score (narrow band and wide band)
-import numpy
+#import numpy
 
 from setuptools import find_packages
 from distutils.core import setup
